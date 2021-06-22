@@ -1,0 +1,494 @@
+.logo{
+	color: #F5620D;
+}
+/* -------Side Navbar Start---------- */
+.sideNavTitle{
+	margin-top: 30px;
+	margin-left: -30px;
+	width: 200px;
+	text-align: center;
+	border-style: solid;
+	border-color: none;
+	background-color: #020E37;
+	padding: 11px;
+	font-family: Berlin Sans FB;
+	font-size: 23px;
+	color: white;
+	border-radius: 5px;
+}
+.AllCategoriesTable table{
+	margin-top: 30px;
+	margin-left: -25px;
+	width: 200px;
+	font-family: OCR A Std, monospace;	
+}
+.AllCategoriesTable table th{
+	font-size: 20px;
+}
+.fruitCondition table th{
+	font-size: 20px;
+}
+.fruitCondition table{
+	margin-top: 20px;
+	margin-left: -25px;
+	width: 200px;
+	font-family: OCR A Std, monospace;	
+}
+.fruitPriceRange table th{
+	font-size: 20px;
+}
+.fruitPriceRange table{
+	margin-top: 20px;
+	margin-left: -25px;
+	width: 200px;
+	font-family: OCR A Std, monospace;	
+}
+/* -------Side Navbar End---------- */
+
+
+
+
+
+/* -------Navbar Start---------- */
+.navbarBrand{
+	font-size: 18px !important;
+	
+}
+.navbar{
+	width: 100%;
+	background-color: #11C44A !important;
+}
+.nav-link{
+	color:white !important;
+	font-size: 17px;
+	font-family: Berlin Sans FB;
+}
+.navbar .nav-link:hover{
+	color: #696D6A!important;
+	border-top: 2px solid white;
+}
+.dropdown-menu{
+	margin-left: -50px;
+	width: 545px;
+	height: 325px;
+	background-color: white!important;
+}
+.dropdown-menu .CategoryName{
+	text-align: center;
+}
+.dropdown-menu a:hover{
+	background-color: #11C44A!important;
+	color:white!important;
+}
+.dropdown-menu a{
+	color: #11C44A!important;
+	width: 120px;
+	margin-left: -5px;
+	padding: 3px;
+	font-family: OCR A Std, monospace;
+	text-align: center;
+}
+.contactWithUs{
+	width: 100%;
+	margin-top: 50px;
+
+}
+.contactWithUs .flex{
+	background-color: #88FF96;
+}
+
+.btn-group{
+	margin-left: 15px;
+	font-size: 17px;
+	font-family: OCR A Std, monospace;
+}
+.btn-group button:hover{
+	background-color: #11C44A !important;
+	color:#696D6A;
+	border-color: white;
+}
+.btn-group img{
+	height: 23px !important;
+	width: 23px !important;
+	border-radius: 20px;
+}
+
+.profileMenue{
+	width: 100px;
+	height: 160px;
+	border-style: solid;
+	border-color: #11C44A;
+	border-width: 1px;
+	background-color: white;
+	margin-top: -250px;
+	margin-left: 704px;
+	display: none;
+	
+}
+.profileMenue a{
+	text-decoration: none;
+	color: #11C44A;
+	font-family: Berlin Sans FB;	
+}
+.profileMenue a:hover{
+	color: white;
+	
+}
+.profileMenue li{
+	padding-top:5px;
+	text-align: center;
+}
+.profileMenue li:hover{
+	
+	background-color: #11C44A;
+}
+/* -------Navbar End---------- */
+
+
+
+/* -------Middle Content Start---------- */
+.content{
+	width: 100%;
+	margin-top: 30px;
+	
+}
+
+.imageTop{
+	width: 100%;
+	height: 300px;
+	border-style: none;
+	border-color: none;
+	background-image: url("../image/1.jpg");
+	background-size: cover;
+}
+.imageTopContent{
+	width: 600px;
+	height: 200px;
+	border-style: solid;
+	border-color: red;
+	background-color: black;
+	margin:auto;
+	margin-top: 50px;
+	position: relative;
+	border-radius: 20px;
+	opacity: 0.3;
+}
+.sitename1{
+	margin-left: 230px;
+	margin-top: 10px;
+	position: absolute;
+	font-size: 55px;
+	font-family: Monotype corsiva;
+	color: #F76900;
+}
+.sitename2{
+	margin-left: 160px;
+	margin-top: 55px;
+	position: absolute;
+	font-size: 55px;
+	font-family: Monotype corsiva;
+	color: #FAF600;
+}
+.searchHere{
+	position: absolute;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 135px;
+}
+.searchButton{
+	margin-left: 5px;
+}
+
+section img{
+	position: relative;
+}
+.ViewButton{
+	position: absolute;
+	margin-top: -192px;
+	margin-left: 50px;
+	
+}
+.ViewButton button{
+	border-radius: 10px 0 20px 0;
+	opacity: .7;
+}
+.ViewButton button:hover{
+	background-color: #11C44A;
+	border-style: none;
+	opacity: 1;
+}
+.AddCart{
+	position: absolute;	
+	opacity: 1;
+	margin-left: 115px;
+	margin-top: -31px;
+	background-color: white;
+	text-align: center;
+	
+}
+.AddCart i{
+	color: #11C44A;
+	width: 40px!important;
+	opacity: 1!important;
+}
+.AddCart:hover{
+	color: #11C44A!important;
+	opacity: .6;
+}
+.AddLove{
+	position: absolute;	
+	opacity: 1;
+	margin-left: 76px;
+	margin-top: -31px;
+	text-align: center;
+}
+.AddLove i{
+	color: #11C44A;
+	width: 40px!important;
+	opacity: 1!important;
+}
+/* -------Middle Content End---------- */
+
+
+/* -------Right Navbar Start---------- */
+.carousel{
+	width: 250px;
+	height: 150px;
+	margin-top: 30px;
+}
+.carousel img{
+	height: 150px;
+	width: 250px;
+}
+/* -------Right Navbar End---------- */
+
+
+/* -------Media Object Start---------- */
+.mediaObject{
+	width: 95%;
+	margin-bottom: 100px;
+	text-align: justify;
+	font-family: OCR A Std, monospace;
+	color: #057981;
+}
+.media{
+	margin-top: 40px;
+}
+.mediaObject img{
+	width: 80px;
+	height: 70px;
+}
+.mediaObject .MediaAboutFruit{
+	font-size: 25px;
+	color: #11C44A;
+	font-family: Berlin Sans FB!important;
+	margin-top: -6px;
+}
+/* -------Media Object Start---------- */
+
+
+
+/* -------Photo Gallery Start---------- */
+.photoGallery1 section{
+	margin-left: -12px;
+	width: 830px!important;
+}
+/* -------Photo Gallery End---------- */
+
+
+
+
+
+
+/* -------Fruit View Details Start---------- */
+.fruitDetails section{
+	margin-left: -42px;
+	width: 850px!important;
+}
+.fruitDetails section p{
+	text-align: justify;
+}
+.amount input{
+	border:2px solid green;
+	background-color: white;
+	width: 150px;
+	height: 40px;
+}
+
+/* -------Fruit View Details End---------- */
+
+
+
+/* -------Log In Section Start--------- */
+.loginTitle{
+	margin:auto;
+	font-size: 35px;
+	font-family: Berlin Sans FB;
+	color: #32B508;
+	margin-top: 10px;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	display: none;
+
+}
+.loginSection{
+	margin-left: -40px;
+	display: none;
+	
+}
+.loginSection .flex{
+	width: 435px;
+	background-color: #88FF96;
+	margin-top: 5px;
+}
+.loginSection a button{
+	width: 315px;
+}
+
+/* -------Log In Section End--------- */
+
+
+
+
+
+/* -------Sign Up Section Start--------- */
+.signupTitle{
+	margin:auto;
+	font-size: 35px;
+	font-family: Berlin Sans FB;
+	color: #32B508;
+	margin-top: 10px;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	display: none;
+}
+.signupSection{
+	width: 840px;
+	height: 730px;
+	border-style: solid;
+	border-color: #88FF96;
+	background-color: #88FF96;
+	margin-top: 7px;
+	margin-left: -40px;
+	position: relative;
+	display: none;
+}
+.registrationTitle{
+	margin-top: 30px;
+	margin-left: 300px;
+	font-size: 30px;
+	font-family: Blippo, fantasy;
+	color: #2798FC;
+}
+.signupSection form{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+.regi1Section input{
+	width: 340px;
+	height: 40px;
+	border-radius: 5px;
+}
+.regi1Section label{
+	padding-top: 20px;
+	font-family: Franklin Gothic Medium;
+	color: #8E9395;
+}
+.regi2Section input{
+	width: 340px;
+	height: 40px;
+	border-radius: 5px;
+
+}
+.regi2Section label{
+	padding-top: 20px;
+	font-family: Franklin Gothic Medium;
+	color: #8E9395;
+}
+
+.genderInput{
+	height: 28px;
+	width: 60px;
+	margin-top: 30px;
+	margin-left: 5px;
+	font-family: Franklin Gothic Medium;
+	color: #767676;
+	
+}
+.genderInputTitle{
+	margin-top: 28px;
+	font-family: Franklin Gothic Medium;
+	font-size: 20px;
+	color: #8E9395; 
+	margin-left: 14px;
+}
+.uploadProfilePhoto{	
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+}
+.regiButton{
+	width: 340px;
+	height: 50px;
+	border-style: solid;
+	border-color: none;
+	background-color: #88FF96;
+	margin-left: 430px;
+	margin-top: 25px;
+	font-family: Franklin Gothic Medium;
+	font-size: 25px;
+	color: white;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.regiButton:hover{
+   transform: scale(1.1);
+	transition: 1s;
+	background-color: #11C44A;
+}
+/* -------Sign Up Section End--------- */
+
+
+
+
+
+/* -------Payment Footer Start---------- */
+.paymentWay{
+
+}
+.paymetentIcon{
+	height: 40px;
+	width: 90px;
+}
+.paymetentIconText{
+	margin-top: -15px;
+}
+/* -------Payment Footer End---------- */
+
+
+
+
+/* -------Footer Start Here---------- */
+.footer{
+
+	width: 100%;
+	height: 100%;
+	padding:5px;
+	border-style: solid;
+	border-color: red;
+	background-color: #11C44A;
+	margin-top: 30px;
+}
+.footer .body-font{
+	color: white!important;
+}
+.navLink{
+	margin-top: -50px;
+}
+.extraFooter{
+	background-color: #0A022C;
+	color: white;
+}
+
+/* -------Footer End Here---------- */
+
